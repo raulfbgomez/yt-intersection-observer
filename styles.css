@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+nav {
+  min-height: 10vh;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1, nav ul {
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2 {
+  font-size: 5rem;
+  color: white;
+}
+
+.inicio {
+  background-color: #00bfff;
+}
+
+.proyectos {
+  background-color: #ff1493;
+}
+
+.contacto {
+  background-color: #b22222;
+}
+
+.marcador {
+  position: absolute;
+  z-index: -2;
+  background-color: deepskyblue;
+  transform: scale(2);
+  transition: all 0.5s ease;
+}

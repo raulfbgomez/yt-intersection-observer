@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Intersection observer API</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Intersection Observer</h1>
+      <ul>
+        <li><a data-page="inicio" href="#">Inicio</a></li>
+        <li><a data-page="proyectos" href="#">Proyectos</a></li>
+        <li><a data-page="contacto" href="#">Contacto</a></li>
+        <div class="marcador"></div>
+      </ul>
+    </nav>
+  </header>
+  <section data-index="0" class="inicio">
+    <h2>Inicio</h2>
+  </section>
+  <section  data-index="1" class="proyectos">
+    <h2>Proyectos</h2>
+  </section>
+  <section  data-index="2" class="contacto">
+    <h2>Contacto</h2>
+  </section>
+  <script src='./app.js'></script>
+</body>
+</html>
